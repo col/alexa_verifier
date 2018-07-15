@@ -27,6 +27,6 @@ defmodule AlexaVerifier.Mixfile do
   defp deps do
     [{:porcelain, "~> 2.0"},
      {:httpoison, "~> 0.9.0"},
-     {:plug, "~> 1.1.6"}]
+     {:plug, ">= 1.1.0"}]
   end
 end
